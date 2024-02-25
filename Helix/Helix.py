@@ -488,7 +488,7 @@ help_text = (
     "  Example: search wikipedia for Simpsons\n"
     "- Search browser for [query]: Conducts a web search for the specified query. Example: search browser for a funny cat\n"
     "- Change [WolframAlpha API/OpenAI API/location/status WolframAlpha/status OpenAI]: Change settings for APIs or location and\n"
-    "  activates or deactivates WolframAlpha or OpenAI. Example: change OpenAI API (activate or deactivate OpenAI/WolframAlpha with"
+    "  activates or deactivates WolframAlpha or OpenAI. Example: change OpenAI API (activate or deactivate OpenAI/WolframAlpha with\n"
     "  `acitvate` or `deactivate` after you have execute the command `change status OpenAI/WolframAlpha`)\n\n"
 
     "WolframAlpha Commands:\n"
