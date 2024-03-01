@@ -21,16 +21,23 @@ folder to start Helix.
 *Function Commands:*
 
 -Play [song/band/video]: Plays music or videos. Example: Play Imagine Dragons. or play a funny video
+
 -Talk to/talk/start [WolframAlpha Chat/OpenAI Chat]: Initiates a conversation with the specified AI service.
  Example: start WolframAlpha Chat or WolframAlpha
+ 
 -Open [website]: Opens a specified website. Example: Open YouTube.
  (for youtube, google, gmail, spotify, microsoft office, netflix and amazon without Domain)
+ 
 -Tell me [time/date/joke]: Provides the current time, date, or a random joke. Example: tell me a funny joke
+
 -Who is/Who are/What is/What are [query]: Searches for information about a person or a thing on wikipedia.
  Example: what is Git Hub
+ 
 -Search wikipedia for [query]: Searches for information about a person or a thing on wikipedia.
  Example: search wikipedia for Simpsons
+ 
 -Search browser for [query]: Conducts a web search for the specified query. Example: search browser for a funny cat
+
 -Change [WolframAlpha API/OpenAI API/location/status WolframAlpha/status OpenAI]: Change settings for APIs or location and 
  activates or deactivates WolframAlpha or OpenAI. Example: change OpenAI API
  
