@@ -50,7 +50,7 @@ folder to start Helix.
 - **Create [recipe/plan/strategy/program]:** Helps in creating structured plans.
 - And more...
 
-## Good to know:
+## Good to know
 
 Helix is also capable of understanding everyday conversation, making it versatile in its interactions.
 Make sure that you don't include any of the above commands in your ever day command, because then
