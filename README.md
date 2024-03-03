@@ -1,8 +1,8 @@
-# Helix - Personal Assistant for Linux
+# Helix - Personal Assistant for Linux/GNU
 
 ![Helix](https://github.com/PaulPoandl/Helix/assets/75140549/55c5d33d-50f9-4a37-bfa7-90909e07b629)
 
-Helix is a personal Assistant made for Linux. He supports a wide range of commands and functions, optional you can also
+Helix is a personal Assistant made for Linux/GNU. He supports a wide range of commands and functions, optional you can also
 add an WolframAlpha API and OpenAI API for more features. 
 
 ## Installation
