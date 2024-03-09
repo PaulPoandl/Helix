@@ -52,19 +52,29 @@ folder to start Helix.
 
 ## Good to know
 
-Helix is also capable of understanding everyday conversation, making it versatile in its interactions.
-Make sure that you don't include any of the above commands in your ever day command, because then
-the function for this specific command will be called.
+Helix is also adept at understanding everyday conversation, making it versatile in its interactions.
+Ensure that you don't include any of the aforementioned commands in your everyday interactions, as doing so
+will trigger the function associated with that specific command.
 
-You have the option to activate or deactivate OpenAI and WolframAlpha, but then WolframAlpa and OpenAI
-commands are not available anymore and Helix will not be capable of handling all every day commands. As well
-as that the the responses of everday commands are not that good anymore.
+You have the option to activate or deactivate OpenAI and WolframAlpha. However, this means that the commands
+related to WolframAlpha and OpenAI will no longer be available as well as the weather, and Helix will not be capable of handling
+all everyday commands as effectively. Furthermore, the responses to these everyday commands may not be as satisfactory.
 
-You have also the option to change the location for the weather information as well as the APIs for the AIs. To
-do this please enter the command for it.
+You also have the option to change your location for weather information, your name (how Helix addresses you),
+and the APIs for the AIs. To do so, please enter the corresponding command.
+You can also activate or deactivate location (weather) and events (calendar), but this will result in the
+absence of this information on your dashboard (start screen), and the specific commands associated with them
+will no longer function.
 
-For assistance, feel free to reach out to us via email at 
-[bytegroovelabs@gmail.com](mailto:bytegroovelabs@gmail.com)/[paul.poandl@gmail.com](mailto:paul.poandl@gmail.com)
-or explore more information on our website at https://aicommandhub2.wordpress.com/.
+To obtain the APIs for OpenAI and WolframAlpha, visit their respective websites. For calendar functionality, 
+ensure you have both 'token.json' and 'credentials.json' files saved in the same directory as 'Helix.py'. 
+The 'credentials.json' file can be obtained from Google by following the instructions on their website.
+After running Helix with Google Calendar for the first time, the token.json file will be automatically 
+generated in the same directory. However, you may already have the 'credentials.json' file obtained 
+from Google for Calendar. For detailed instructions on activating Google Calendar API and obtaining this file
+visit this link https://developers.google.com/calendar/api/quickstart/python.
+
+For assistance, feel free to reach out to us via email at bytegroovelabs@gmail.com or paul.poandl@gmail.com,
+or find more information on our website at https://aicommandhub2.wordpress.com.
 
 https://github.com/PaulPoandl/Helix/assets/75140549/cfdb225e-2c6a-4b3f-8683-a8fa0f71eb14
