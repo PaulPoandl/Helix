@@ -20,7 +20,7 @@ folder to start Helix.
 
 ## Skills
 
-![Screenshot 2024-03-01 200820](https://github.com/PaulPoandl/Helix/assets/75140549/8fd084f2-1a5b-46ae-bcb1-f65f389a52af)
+![Screenshot 2024-03-09 23 18 46](https://github.com/PaulPoandl/Helix/assets/75140549/2bbb4e37-2272-464d-b1fb-fab67e0cc18a)
 
 ### Function Commands
 
@@ -31,7 +31,7 @@ folder to start Helix.
 - **Who is/Who are/What is/What are [query]:** Searches for information about a person or thing on Wikipedia.
 - **Search wikipedia for [query]:** Searches for information on Wikipedia.
 - **Search browser for [query]:** Conducts a web search for the specified query.
-- **Change [WolframAlpha API/OpenAI API/location/status WolframAlpha/status OpenAI]:** Change settings for APIs or location.
+- And more...
 
 ### WolframAlpha Commands
 
