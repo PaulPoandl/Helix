@@ -128,8 +128,7 @@ generated in the same directory. However, you may already have the 'credentials.
 from Google for Calendar. For detailed instructions on activating Google Calendar API and obtaining this file
 visit this link https://developers.google.com/calendar/api/quickstart/python.
 
-For assistance, feel free to reach out to us via email at bytegroovelabs@gmai[Bildschirmaufzeichnung vom 2024-03-17, 01-08-00.webm](https://github.com/PaulPoandl/Helix/assets/75140549/ef889f02-9c64-479d-91c5-fa256102ddc4)
-l.com or paul.poandl@gmail.com,
+For assistance, feel free to reach out to us via email at bytegroovelabs@gmail.com or paul.poandl@gmail.com,
 or find more information on our website at https://aicommandhub2.wordpress.com.
 
 [Screen recording 2024-03-09 23.26.36.webm](https://github.com/PaulPoandl/Helix/assets/75140549/6dee5dd3-35a2-42e7-a21a-774f80120589)
