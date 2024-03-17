@@ -51,7 +51,7 @@ nano ~/.bashrc
 Paste the code snippet at the end of the file.
 Save the changes and exit the text editor. In nano, you can do this by pressing Ctrl + X, then Y to confirm saving, and Enter to exit.
 
-### 2. Restart Shell
+### 2. Restart Shell/netcat
 
 After saving the changes, restart your shell or source the file for changes to take effect.
 
@@ -63,7 +63,7 @@ or
 ```bash
 source ~/.bashrc
 ```
-You also have to install netcat-openbsd, when you have not already nstalled it on your system:
+You also have to install netcat-openbsd, when you have not already installed it on your system:
 
 ```bash
 sudo apt install netcat-openbsd
