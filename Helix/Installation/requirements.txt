@@ -61,7 +61,6 @@ preshed==3.0.9
 protobuf==4.25.3
 pyasn1==0.5.1
 pyasn1-modules==0.3.0
-PyAudio==0.2.14
 PyAutoGUI==0.9.54
 pydantic==2.5.3
 pydantic_core==2.14.6
