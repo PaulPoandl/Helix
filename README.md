@@ -18,6 +18,53 @@ pyhton3 Helix.py
 From now on you can then start Helix with "pyhton3 Helix.py", but remember that you always have to navigate to the Helix
 folder to start Helix.
 
+## Socket Server Installation
+
+To set up the socket server (to make Helix accesible with a command from any terminal, while it is running in 
+the back. in one terminal), you need to perform the following steps:
+
+### 1. Edit .zshrc or .bashrc
+
+Add the following code snippet to your `.zshrc` or `.bashrc` file:
+
+```bash
+# Helix
+function helix_command() {
+    local command="$*"
+    if [ -z "$command" ]; then
+        echo "Usage: helix_command <command>"
+        return 1
+    fi
+    echo -n "$command" | nc -q 0 localhost 12345 | sed 's/\x00//g'
+}
+```
+To open .zshrc or .bashrc, use a text editor. For example, you can use nano:
+
+```bash
+nano ~/.zshrc
+```
+or
+
+```bash
+nano ~/.bashrc
+```
+Paste the code snippet at the end of the file.
+Save the changes and exit the text editor. In nano, you can do this by pressing Ctrl + X, then Y to confirm saving, and Enter to exit.
+
+### 2. Restart Shell
+
+After saving the changes, restart your shell or source the file for changes to take effect.
+
+```bash
+source ~/.zshrc
+```
+or
+
+```bash
+source ~/.bashrc
+```
+You can also edit other terminal configuration files in a similar manner. For example, if you're using a different shell like fish, the configuration file might be .config/fish/config.fish. You can edit it using a text editor and follow similar steps to apply changes.
+
 ## Skills
 
 ![Screenshot 2024-03-09 23 18 46](https://github.com/PaulPoandl/Helix/assets/75140549/2bbb4e37-2272-464d-b1fb-fab67e0cc18a)
@@ -66,6 +113,13 @@ You can also activate or deactivate location (weather) and events (calendar), bu
 absence of this information on your dashboard (start screen), and the specific commands associated with them
 will no longer function.
 
+[Bildschirmaufzeichnung vom 2024-03-17, 01-08-00.webm](https://github.com/PaulPoandl/Helix/assets/75140549/1a08ce71-4912-439f-be35-f7804caddd85)
+
+To activate or deactivate the ServerSocket functionality, you can use the corresponding command. When activated,
+the ServerSocket feature allows you to communicate with Helix from multiple terminals using helix_command command,
+like helix_command hello. However, to enable this feature globally, you'll need to add specific configuration
+to your shell configuration file (e.g., bashrc or zshrc). Keep in mind that when the ServerSocket is deactivated, this functionality will no longer be available. (Remember, when activated the terminal where Helix.py is running still has to be open in the background)
+
 To obtain the APIs for OpenAI and WolframAlpha, visit their respective websites. For calendar functionality, 
 ensure you have both 'token.json' and 'credentials.json' files saved in the same directory as 'Helix.py'. 
 The 'credentials.json' file can be obtained from Google by following the instructions on their website.
@@ -74,7 +128,8 @@ generated in the same directory. However, you may already have the 'credentials.
 from Google for Calendar. For detailed instructions on activating Google Calendar API and obtaining this file
 visit this link https://developers.google.com/calendar/api/quickstart/python.
 
-For assistance, feel free to reach out to us via email at bytegroovelabs@gmail.com or paul.poandl@gmail.com,
+For assistance, feel free to reach out to us via email at bytegroovelabs@gmai[Bildschirmaufzeichnung vom 2024-03-17, 01-08-00.webm](https://github.com/PaulPoandl/Helix/assets/75140549/ef889f02-9c64-479d-91c5-fa256102ddc4)
+l.com or paul.poandl@gmail.com,
 or find more information on our website at https://aicommandhub2.wordpress.com.
 
 [Screen recording 2024-03-09 23.26.36.webm](https://github.com/PaulPoandl/Helix/assets/75140549/6dee5dd3-35a2-42e7-a21a-774f80120589)
