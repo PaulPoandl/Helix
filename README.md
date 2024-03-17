@@ -63,6 +63,11 @@ or
 ```bash
 source ~/.bashrc
 ```
+You also have to install netcat-openbsd, when you have not already nstalled it on your system:
+
+```bash
+sudo apt install netcat-openbsd
+```
 You can also edit other terminal configuration files in a similar manner. For example, if you're using a different shell like fish, the configuration file might be .config/fish/config.fish. You can edit it using a text editor and follow similar steps to apply changes.
 
 ## Skills
