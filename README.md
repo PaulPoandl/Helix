@@ -72,7 +72,8 @@ You can also edit other terminal configuration files in a similar manner. For ex
 
 ## Skills
 
-![Screenshot 2024-03-09 23 18 46](https://github.com/PaulPoandl/Helix/assets/75140549/2bbb4e37-2272-464d-b1fb-fab67e0cc18a)
+https://github.com/PaulPoandl/Helix/assets/75140549/78483061-bc15-4713-ac42-45b55d1143d0
+Compression(clideo.com)/Voice(ElevenLabs - AI Voice Generator & Text to Speech)
 
 ### Function Commands
 
