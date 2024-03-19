@@ -138,5 +138,4 @@ visit this link https://developers.google.com/calendar/api/quickstart/python.
 For assistance, feel free to reach out to us via email at bytegroovelabs@gmail.com or paul.poandl@gmail.com,
 or find more information on our website at https://aicommandhub2.wordpress.com.
 
-[Screen recording 2024-03-09 23.26.36.webm](https://github.com/PaulPoandl/Helix/assets/75140549/6dee5dd3-35a2-42e7-a21a-774f80120589)
-
+![Screenshot 2024-03-09 23 18 46](https://github.com/PaulPoandl/Helix/assets/75140549/2bbb4e37-2272-464d-b1fb-fab67e0cc18a)
