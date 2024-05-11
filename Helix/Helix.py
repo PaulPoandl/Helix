@@ -864,17 +864,17 @@ help_text = (
     "- Search browser for [query]: Conducts a web search for the specified query. Example: search browser for a funny cat\n"
     "- Show [weather/calendar/dashboard/settings]: Shows weather information, your events, your dashboard and your settings.\n"
     "  Example: show settings\n"
-	"- Run tcommand to [update system/check diskspace/list directory/display systeminfo/check network/show processes/\n"
+    "- Run tcommand to [update system/check diskspace/list directory/display systeminfo/check network/show processes/\n"
     "  show resources/[aim of command]: runs a command in terminal with a specific aim, you can also execute 'run tcommand to'\n"
     "  with any other aim and not only with the pre-defined ones. Example: run tcommand to update system. or run tcommand to delete a file.\n"
     "- linux command to [aim of command]: displays a command with a specific aim. Example: linux command to install a deb file.\n"
     "- Change [WolframAlpha API/OpenAI API/Gemini API/location/name/preference ascii/status WolframAlpha/status OpenAI/status Gemini\n"
-	"  status events\status location/status ServerSocket/status Ascii]: Changes APIs, location, name, preference ascii and activates\n"
-	"  or deactivates WolframAlpha, OpenAI, Gemini, Ascii, ServerSocket, events and location.\n"
-	"  To change status you should write 'activate' or 'deactivate' next to 'Enter new status:',\n"
-	"  after you have executed a command like 'change status events'.\n"
-	"  To change preference ascii you can choose between technical\simple\modern\default or random\n"
-	"  and should write it next to 'Enter new preference:', after you have executed 'change preference ascii'.\n\n"
+    "  status events\status location/status ServerSocket/status Ascii]: Changes APIs, location, name, preference ascii and activates\n"
+    "  or deactivates WolframAlpha, OpenAI, Gemini, Ascii, ServerSocket, events and location.\n"
+    "  To change status you should write 'activate' or 'deactivate' next to 'Enter new status:',\n"
+    "  after you have executed a command like 'change status events'.\n"
+    "  To change preference ascii you can choose between technical\simple\modern\default or random\n"
+    "  and should write it next to 'Enter new preference:', after you have executed 'change preference ascii'.\n\n"
 
     "WolframAlpha Commands:\n"
     "- Calculate [query]: Performs complex calculations. Example: calculate the orbit of Mars.\n"
@@ -1483,7 +1483,7 @@ def show_dashboard(command):
         print("")
     elif "settings" in command:
         print("")
-        print("Helix-Version: 3.5        When you change sth. restart Helix to conf.")
+        print("Helix-Version: 0.6        When you change sth. restart Helix to conf.")
         print("")
         print("-----------------------Communication--Settings-----------------------")
         print("")
