@@ -3,7 +3,7 @@
 ![Helix](https://github.com/PaulPoandl/Helix/assets/75140549/55c5d33d-50f9-4a37-bfa7-90909e07b629)
 
 Helix is a personal Assistant made for Linux/GNU. He supports a wide range of commands and functions, optional you can also
-add an WolframAlpha API and OpenAI API for more features. 
+add an WolframAlpha API, Gemini API and OpenAI API for more features. 
 
 ## Installation
 
@@ -84,6 +84,8 @@ Compression(clideo.com)/Voice(ElevenLabs - AI Voice Generator & Text to Speech)
 - **Who is/Who are/What is/What are [query]:** Searches for information about a person or thing on Wikipedia.
 - **Search wikipedia for [query]:** Searches for information on Wikipedia.
 - **Search browser for [query]:** Conducts a web search for the specified query.
+- **linux command to [aim of command]:** Gives you a linux command with a specific aim.
+- **run tcommand to [aim of command]:** Runs a linux command with a specific aim.
 - And more...
 
 ### WolframAlpha Commands
@@ -107,6 +109,7 @@ Compression(clideo.com)/Voice(ElevenLabs - AI Voice Generator & Text to Speech)
 
 - **get [latest news/weather forecast/stock market update/crypto prices/sports scores/...]:** Helds you up-to-date.
 - **get tech [latest tech news/newest software versions/latest CVEs/...]:** Helds you in the world of tech up-to-date.
+- **brief [[CVE]/article [link to article]/video [link to youtube video]/book/music/album/...]:** To get a brief summary.
 - **code [aim of the code and language]:** Codes you a program.
 - And more...
 
@@ -116,13 +119,19 @@ Helix is also adept at understanding everyday conversation, making it versatile 
 Ensure that you don't include any of the aforementioned commands in your everyday interactions, as doing so
 will trigger the function associated with that specific command.
 
-You have the option to activate or deactivate OpenAI and WolframAlpha. However, this means that the commands
-related to WolframAlpha and OpenAI will no longer be available as well as the weather, and Helix will not be capable of handling
-all everyday commands as effectively. Furthermore, the responses to these everyday commands may not be as satisfactory.
+You have the option to activate or deactivate OpenAI, Geimini and WolframAlpha. However, this means that the commands
+related to WolframAlpha, Gemini and OpenAI will no longer be available as well as the weather (by deactivating Wolframalpha),
+the commands 'run tcommand to' and 'linux command to' (by deactivating OpenAI) and Helix will not be capable of handling
+all everyday commands as effectively (by deactivating Wolframalpha or/and OpenAI). Furthermore, the responses to these
+everyday commands may not be as satisfactory.
 
 You also have the option to change your location for weather information, your name (how Helix addresses you),
-and the APIs for the AIs. To do so, please enter the corresponding command.
-You can also activate or deactivate location (weather) and events (calendar), but this will result in the
+your Ascii preference (the way Helix sign is written at the dashboard) and the APIs for the AIs. To do so,
+please enter the corresponding command.
+When you change Ascii preference, you can choose between technical/simple/modern/default or random. Random is
+a mix of all of them. To look up what Asciis every theme have, please open the corresponding python script for each topic.
+You will find them in a folder called 'ascii_art'. in the helix folder. Optionally you can add your own art.
+You can also activate or deactivate location (weather), Ascii (Helix sign) and events (calendar), but this will result in the
 absence of this information on your dashboard (start screen), and the specific commands associated with them
 will no longer function.
 
@@ -131,15 +140,23 @@ will no longer function.
 To activate or deactivate the ServerSocket functionality, you can use the corresponding command. When activated,
 the ServerSocket feature allows you to communicate with Helix from multiple terminals using helix_command command,
 like helix_command hello. However, to enable this feature globally, you'll need to add specific configuration
-to your shell configuration file (e.g., bashrc or zshrc). Keep in mind that when the ServerSocket is deactivated, this functionality will no longer be available. (Remember, when activated the terminal where Helix.py is running still has to be open in the background)
+to your shell configuration file (e.g., bashrc or zshrc). Please refer to the GitHub page for detailed instructions.
+Keep in mind that when the ServerSocket is deactivated, this functionality will no longer be available.
+(Remember, when activated the terminal where Helix.py is running still has to be open in the background)
+(Please keep in mind, that the command 'run tcommand to' does not work with ServerSocket, so it only can be
+executed in the terminal where Helix.py is running, as well as the 'show' and 'change' commands.
 
-To obtain the APIs for OpenAI and WolframAlpha, visit their respective websites. For calendar functionality, 
-ensure you have both 'token.json' and 'credentials.json' files saved in the same directory as 'Helix.py'. 
+To obtain the APIs for OpenAI, Gemini and WolframAlpha, visit their respective websites. For calendar functionality,
+ensure you have both 'token.json' and 'credentials.json' files saved in the same directory as 'Helix.py'.
 The 'credentials.json' file can be obtained from Google by following the instructions on their website.
-After running Helix with Google Calendar for the first time, the token.json file will be automatically 
-generated in the same directory. However, you may already have the 'credentials.json' file obtained 
-from Google for Calendar. For detailed instructions on activating Google Calendar API and obtaining this file
+After running Helix with Google Calendar for the first time, the token.json file will be automatically
+generated in the same directory. However, you may already have the 'credentials.json' file obtained
+from Google for Calendar. For detailed instructions on activating Google Calendar API and obtaining this file,
 visit this link https://developers.google.com/calendar/api/quickstart/python.
+
+When you get the warning 'Warning: unsupported distribution.', it means that you are not able to execute the command
+'run tcommand to', because your package manager was not found, what is needed for 'run tcommand to update system'.
+But beside that you can use Helix.py normally.
 
 For assistance, feel free to reach out to us via email at bytegroovelabs@gmail.com or paul.poandl@gmail.com,
 or find more information on our website at https://aicommandhub2.wordpress.com.
