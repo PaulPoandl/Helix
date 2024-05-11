@@ -2059,7 +2059,7 @@ def run_tcommand_to(command):
                 print(f"{Colors.RED}Helix:{Colors.END}{Colors.BLUE}An error occurred during system action.{Colors.END}\n")
             return False  
         while True:
-            tcustom_commands = load_custom_commands("Pre-Trained Commands\tcustom_command.txt")
+            tcustom_commands = load_custom_commands('./Pre-Trained Commands/tcustom_command.txt')
             command = command.split("run tcommand to", 1)[-1].strip()
             if command in tcustom_commands:
                 command_to_run = tcustom_commands[command]
