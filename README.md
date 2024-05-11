@@ -79,7 +79,6 @@ Compression(clideo.com)/Voice(ElevenLabs - AI Voice Generator & Text to Speech)
 ### Function Commands
 
 - **Play [song/band/video]:** Plays music or videos.
-- **Talk to/talk/start [WolframAlpha Chat/OpenAI Chat]:** Initiates a conversation with the specified AI service.
 - **Open [website]:** Opens a specified website.
 - **Tell me [time/date/joke]:** Provides the current time, date, or a random joke.
 - **Who is/Who are/What is/What are [query]:** Searches for information about a person or thing on Wikipedia.
@@ -102,6 +101,13 @@ Compression(clideo.com)/Voice(ElevenLabs - AI Voice Generator & Text to Speech)
 - **Explain [concept/phenomenon/term/theory/historical event/scientific theory/mathematical concept/technological trend]:** Explains complex topics.
 - **Suggest [book/movie/recipe/activity/hobby/app/tool/destination/gift]:** Provides suggestions.
 - **Create [recipe/plan/strategy/program]:** Helps in creating structured plans.
+- And more...
+
+### Gemini Commands
+
+- **get [latest news/weather forecast/stock market update/crypto prices/sports scores/...]:** Helds you up-to-date.
+- **get tech [latest tech news/newest software versions/latest CVEs/...]:** Helds you in the world of tech up-to-date.
+- **code [aim of the code and language]:** Codes you a program.
 - And more...
 
 ## Good to know
