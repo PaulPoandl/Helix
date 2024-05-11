@@ -1,0 +1,2 @@
+There might be some necessary modules missing in requirements.txt, please install this then manually with 'pip + module'.
+Make also sure that you have openai==0.28.0 installed, because only this version works with Helix.py
