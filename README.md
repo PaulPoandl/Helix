@@ -162,3 +162,11 @@ For assistance, feel free to reach out to us via email at bytegroovelabs@gmail.c
 or find more information on our website at https://aicommandhub2.wordpress.com.
 
 ![Screenshot 2024-03-09 23 18 46](https://github.com/PaulPoandl/Helix/assets/75140549/2bbb4e37-2272-464d-b1fb-fab67e0cc18a)
+
+## Check out the rating..
+
+![giphy](https://github.com/user-attachments/assets/5ecce3c4-d312-4b20-ba5a-2ed45b661bf0)
+
+[Go to medevel.com](https://medevel.com/personal-assistants-1830-p/#:~:text=20.%20Helix%20%2D%20Personal%20Assistant%20for%20Linux/GNU)
+
+Source gif:https://giphy.com/gifs/season-9-the-simpsons-9x19-xT5LMrXqJoOzyuqj8Q
